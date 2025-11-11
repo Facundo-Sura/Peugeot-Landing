@@ -13,7 +13,7 @@ export default function Benefits() {
       className="relative py-20 bg-cover bg-center"
       style={{ backgroundImage: "url('/beneficios-bg.jpg')" }}
     >
-      <div className="absolute inset-0 bg-black/50"></div>
+      <div className="absolute inset-0 bg-gray-900"></div>
       <div className="relative z-10 max-w-5xl mx-auto px-4">
         <h2 className="text-4xl text-center font-bold text-white mb-10">¿Por qué elegir Peugeot?</h2>
         <div className="flex flex-col md:flex-row justify-center gap-8">

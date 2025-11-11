@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const modelos = [
-  { name: "208", image: "/modelos/208-azul.png" },
-  { name: "2008", image: "/modelos/2008-negro.png" },
-  { name: "3008", image: "/modelos/3008-cobre.png" },
-  { name: "Landtrek", image: "/modelos/landtrek-verde.png" },
+  { name: "208", image: "/modelos/208/208-azul.png" },
+  { name: "2008", image: "/modelos/2008/2008-negro.png" },
+  { name: "3008", image: "/modelos/3008/3008-cobre.png" },
+  { name: "Landtrek", image: "/modelos/landtrek/landtrek-verde.png" },
 ];
 
 export default function Models() {
