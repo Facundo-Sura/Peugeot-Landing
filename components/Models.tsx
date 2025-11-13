@@ -11,7 +11,7 @@ const modelos = [
 
 export default function Models() {
   return (
-    <section id="modelos" className="py-20 bg-white">
+    <section id="models" className="py-20 bg-white">
       <h2 className="text-4xl text-center font-bold mb-10">Modelos destacados</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto px-4">
         {modelos.map((modelo, idx) => (

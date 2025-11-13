@@ -10,8 +10,8 @@ const benefits = [
 export default function Benefits() {
   return (
     <section
+      id="benefits"
       className="relative py-20 bg-cover bg-center"
-      style={{ backgroundImage: "url('/beneficios-bg.jpg')" }}
     >
       <div className="absolute inset-0 bg-gray-900"></div>
       <div className="relative z-10 max-w-5xl mx-auto px-4">

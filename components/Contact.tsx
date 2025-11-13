@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section id="contacto" className="py-20 bg-blue-600 bg-[url('/formbg.jpg')] bg-cover bg-center text-white">
+    <section id="contact" className="py-20 bg-blue-600 bg-[url('/formbg.jpg')] bg-cover bg-center text-white">
       <h2 className="text-4xl text-center font-bold mb-10">Contactanos</h2>
       <div className="max-w-3xl mx-auto px-4">
         <form className="space-y-6">
@@ -21,7 +21,7 @@ export default function Contact() {
           />
           <button
             type="submit"
-            className="bg-white text-blue-600 px-6 py-3 rounded hover:bg-gray-100"
+            className="bg-white text-blue-600 px-6 py-3 rounded w-full hover:bg-gray-100"
           >
             Enviar
           </button>
