@@ -34,10 +34,10 @@ export default function Hero() {
           <Image
             src={heroImages[current]}
             alt="Peugeot"
-            layout="fill"
-            objectFit="cover"
-            objectPosition="center"
+            fill
             priority
+            className="bg-cover bg-center"
+            sizes="100vw"
           />
         </motion.div>
       </AnimatePresence>
