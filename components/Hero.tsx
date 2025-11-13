@@ -36,7 +36,7 @@ export default function Hero() {
             alt="Peugeot"
             fill
             priority
-            className="bg-cover bg-center"
+            className="object-cover"
             sizes="100vw"
           />
         </motion.div>
